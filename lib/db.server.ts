@@ -9,7 +9,7 @@ export const getMovie = async (id: TitlesRecord['id']) => {
   const title = await xata.db.titles.read(id)
 
   if (title === null) {
-    console.error(`there is no movie with ${id}`)
+    console.error(`Não há filmes com esse ${id}`)
     return null
   }
 
