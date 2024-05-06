@@ -12,7 +12,7 @@ export const SearchResult = async ({
     <>
       {titles.length < 1 ? (
         <article className="grid place-items-center">
-          <p>The Case of Missing Data</p>
+          <p>Dados ausentes</p>
         </article>
       ) : (
         <article>
